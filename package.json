@@ -1,5 +1,5 @@
 {
-    "name": "fantasy-tavens",
+    "name": "fantasy-taverns",
     "version": "1.0.0",
     "license": "MIT",
     "scripts": {
@@ -29,7 +29,7 @@
         "body-parser": "1.18.3",
         "bootstrap": "4.3.1",
         "express": "4.16.4",
-        "jquery": "^1.9.1",
+        "jquery": "^3.4.1",
         "mssql": "5.1.0",
         "ngx-cookie": "4.1.2",
         "nodemon": "1.19.1",
