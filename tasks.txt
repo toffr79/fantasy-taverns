@@ -1,0 +1,22 @@
+When I login, I want to see a list of rooms for my tavern and not other taverns, and be able to add new ones or edit existing ones
+
+- create my-tavern component
+    - list of rooms
+    - add new room button
+    - edit a room
+
+- need a taverns or rooms service
+    - fetch taverns or rooms (only mine)
+    - add room
+    - update room
+
+- tavern route for tavern component
+
+- my-tavern module to hold the above stuff
+    -copy app-routing.module.ts and app.module.ts and rename for taverns/rooms. strip out what we don't need
+        - could also use ng generate
+        - don't need the bootstrap as there is only one which is the app itself
+        - browserModule should be changed to CommonModule
+        - change appRoutingModule to the new routing module
+
+- update the login to navigate to the new tavern component route
